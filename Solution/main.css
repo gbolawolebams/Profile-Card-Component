@@ -1,0 +1,95 @@
+body {
+    background-image: url("./images/bg-pattern-top.svg");
+    margin-top: 0px;
+    font-size: 18px;
+}
+
+main.card-content {
+    background-color: hsl(0,0%,100%);
+    border-radius: 10px;
+    width: 20em;
+    height: 23em;
+    margin-top: 130px;
+    margin-left: 550px;
+
+}
+
+div.card-image > img {
+    width: 3.74in;
+    margin-top: -3PX;
+    margin-left: -1PX;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+div.icon-image > img {
+    border: 5px solid hsl(0,0%,100%);
+    border-radius: 100px;
+    margin-left: 125px;
+    margin-top: -55px;
+}
+
+div.bio-info {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+h5.info-age {
+    padding-left: 15px;
+    color: hsl(0, 0%, 59%);
+    font-weight:bold;
+    font-size: 18px;
+    margin-top: 25px;
+}    
+
+h5.info-name {
+    color: hsl(229, 23%, 23%);
+    font-weight:bold;
+    font-size: 18px;
+    margin-top: 23px;
+}
+
+h6.info-location {
+    color: hsl(0, 0%, 59%);
+    margin-left: 10 px;
+    font-size: 18px;
+    font-weight:bold;
+    text-align: center;
+    margin-top: -5px;
+}
+
+div.footer-row  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+div.footer-col {
+    display: flex;
+    flex-direction: column;
+    margin-top: -25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-col > p {
+    margin-top: -24px;
+    color: hsl(0, 0%, 59%);
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight:small;
+}
+
+hr {
+    margin-top: -20px;
+}
+
+.footer-col > h5 {
+    color: hsl(229, 23%, 23%);
+    font-weight:bold;
+    font-size: 18px;
+}
